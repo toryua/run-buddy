@@ -55,6 +55,7 @@ footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
+    display: inline-block;
 }
 
 footer h2 {
@@ -79,7 +80,7 @@ section {
 
 /* Hero Style Start */
 .hero {
-    background-image: url("https://toryua.github.io/run-buddy/assets/images/hero-bg.jpg");
+    background-image: url(..assets/images/hero-bg.jpg);
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -88,6 +89,8 @@ section {
 /* Hero Style End */
 
 /* Hero Form Style Start */
+
+/* homepage hero */
 
 .hero-form {
     border: 3px solid #024e76;
@@ -130,7 +133,8 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
-/* HERO STYLES END */
+
+
 
 .intro {
     text-align: center;
@@ -242,9 +246,14 @@ section {
 
 /* REACH OUT STYLES START */
 .contact {
-    text-align: center;
+    vertical-align: baseline;
+    text-align: left;
     background: #024e76;
-    }
+    float: left;
+    display: inline-block;
+    width: 100%;
+    
+   }
 
 .contact h2 {
     color: #fce138;
@@ -253,6 +262,7 @@ section {
 .contact-info iframe {
     width: 400px;
     height: 400px;
+    float: left;
 }
 
 .contact-info div {
@@ -260,6 +270,7 @@ section {
     display: inline-block;
     vertical-align: top;
     text-align: left;
+    float: left;
     margin: 30px 0 0 60px;
     color: white;
 }
@@ -280,5 +291,7 @@ section {
 .contact-info a {
     color: #fce138;
 }
+
+
 
 /* REACH OUT STYLES END */
